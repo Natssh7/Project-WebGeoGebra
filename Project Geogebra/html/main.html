@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="../javascript/script.js"></script>
+  <title>Equation Plotter</title>
+</head>
+<body>
+  <header>
+    <h1>Tracé de courbes</h1>
+    <nav>
+        <ul>
+            <li><a href="../html/accueil.html">Accueil</a></li>
+            <li><a href="../html/formules.html">Formules</a></li>
+            <li><a href="../html/main.html">Graphes</a></li>
+        </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <div>
+        <label for="equation-input">Enter an equation:</label>
+        <input type="text" id="equation-input" placeholder="e.g., x**2 + 2*x + 1, sin(x), cos(x)">
+        <button id="plot-btn" onclick="plotEquation()">Plot</button>
+      </div>
+      <div id="plot-container"></div>
+    </section>
+  </main>
+</body>
+<footer>
+  <p>2023 Tracé de courbes. Ethan CLEMENT et Nathan TRAN.</p>
+</footer>
+</html>
